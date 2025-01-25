@@ -1,10 +1,10 @@
 import random
 
 def guess_number():
-    number_to_guess = random.randint(1, 100)
+    number_to_guess = random.randint(1, 10)
     guess = None
 
-    print("Guess the number between 1 and 100")
+    print("Guess the number between 1 and 10")
 
     while guess != number_to_guess:
         guess = int(input("Enter your guess: "))
