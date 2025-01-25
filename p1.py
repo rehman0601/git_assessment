@@ -17,4 +17,5 @@ def guess_number():
             print("Congratulations! You guessed the number.")
 
 if __name__ == "__main__":
+    print("Welcome to the number guessing game!")
     guess_number()
